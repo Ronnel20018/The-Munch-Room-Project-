@@ -321,6 +321,3 @@ footer { text-align: center; padding: 40px; opacity: 0.5; }
 }
         <p>&copy; 2026 The Munch Room | Dipolog City, Philippines</p>
     </footer>
-
-</body>
-</html>
