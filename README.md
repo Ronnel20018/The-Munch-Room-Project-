@@ -82,10 +82,7 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* --- Global & Smooth Scroll --- */
-html {
-    scroll-behavior: smooth;
-}
+/*-- CSS Ginagmay --*/
 
 :root {
     --dark-bg: #1a1a1a;
