@@ -187,7 +187,7 @@ header {
     border-radius: 15px;
 }
 
-/* --- Tupong Product Grid & Cards --- */
+/* --- Product Grid & Cards --- */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -201,28 +201,28 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 100%; /* Gipugos ang cards nga mag-tupong */
+    height: 100%; 
     transition: 0.3s;
 }
 
 .product-img-container {
     width: 100%;
-    height: 320px; /* Parehas nga height sa picture */
+    height: 320px; 
     overflow: hidden;
 }
 
 .product-card img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Dili ma-stretch */
+    object-fit: cover; 
 }
 
 .card-info {
     padding: 20px;
-    flex-grow: 1; /* Mupatuyhad sa card content */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Push footer down */
+    justify-content: space-between;
 }
 
 .card-info h4 { color: var(--accent); margin-bottom: 5px; }
@@ -283,8 +283,8 @@ footer { text-align: center; padding: 40px; opacity: 0.5; }
     background: rgba(212, 163, 115, 0.15); /* Warm Glass Glow */
     color: var(--accent);
     padding-left: 25px; /* Ang slide effect */
-    transform: translateX(5px); /* Mo-move ang tibuok container */
-    backdrop-filter: blur(5px); /* Murag bildo tan-awon */
+    transform: translateX(5px);
+    backdrop-filter: blur(5px);
 }
 
 /* Indicator Line sa kilid */
@@ -295,14 +295,14 @@ footer { text-align: center; padding: 40px; opacity: 0.5; }
     top: 50%;
     transform: translateY(-50%);
     width: 4px;
-    height: 0; /* Hidden sa sugod */
+    height: 0; 
     background: var(--accent);
     border-radius: 0 5px 5px 0;
     transition: height 0.3s ease;
 }
 
 .sidebar ul li a:hover::before {
-    height: 70%; /* Mogawas ang line inig hover */
+    height: 70%;
 }
 
 /* Icon Animation */
